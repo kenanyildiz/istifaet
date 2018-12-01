@@ -1,0 +1,20 @@
+.btn-custom
+{
+  padding: 1rem 1.5rem;
+  font-size: .7rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-width: 2px;
+}
+
+[data-toggle="buttons"] > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn input[type="checkbox"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="radio"],
+[data-toggle="buttons"] > .btn-group > .btn input[type="checkbox"],
+[data-toggle="buttons"] .btn input[type="radio"],
+[data-toggle="buttons"] .btn input[type="checkbox"]
+{
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  pointer-events: none;
+}

@@ -5,13 +5,13 @@ import App from './App'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
-import axios from 'axios'
 
 import '../src/assets/bootstrap.init.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 
 import '../src/assets/style.css'
 
+import VueMoment from 'vue-moment'
 import BootstrapVue from 'bootstrap-vue'
 import VueScrollTo from 'vue-scrollto'
 import PortalVue from 'portal-vue'
@@ -45,6 +45,8 @@ Vue.use(VueScrollTo, {
   y: true
 })
 Vue.use(PortalVue)
+
+Vue.use(VueMoment)
 
 Vue.config.productionTip = true
 

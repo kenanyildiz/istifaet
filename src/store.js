@@ -23,18 +23,18 @@ export default new Vuex.Store({
       previous: {}
     },
     resignationModel: {
-      full_name: 'Kenan Yıldız',
-      email: 'knn@gm.com',
-      company_name: 'company',
-      start_date: '01/11/1990',
-      end_date: '01/11/1990',
-      petition_date: '01/11/1990'
+      full_name: '',
+      email: '',
+      company_name: '',
+      start_date: '',
+      end_date: '',
+      petition_date: ''
     },
     suggestionModel: {
-      full_name: 'Kenan Yıldız',
-      email: 'knn@gm.com',
+      full_name: '',
+      email: '',
       subject_type: '1',
-      message: ' asdf safsad fsa dfasdf',
+      message: '',
       selectedSubjectType: 1
     }
   },

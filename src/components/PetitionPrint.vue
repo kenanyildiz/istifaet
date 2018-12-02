@@ -25,10 +25,10 @@
     <!-- START - STANDART PETITION -->
     <div class="container" v-if="petition_type == 1"
          style="margin: 2rem auto 0;max-width: 112.0rem;padding: 0 2.0rem;position: relative;width: 100%;">
-      <p style="text-align: right;">{{ $t('date') }}: {{ petition_date }}</p>
+      <p style="text-align: right;">{{ $t('date') }}: {{ petitionDate }}</p>
       <p style="text-align: center;">{{ company_name }}</p>
       <p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>&nbsp;</strong></p>
-      <p v-html="$t('petition_type_1_print_first', { 'start_date': start_date, 'end_date': end_date })"></p>
+      <p v-html="$t('petition_type_1_print_first', { 'start_date': startDate, 'end_date': endDate })"></p>
       <p v-html="$t('petition_type_1_print_second')"></p>
       <p v-html="$t('petition_type_1_print_third', { 'full_name': full_name })"></p>
     </div>
@@ -36,10 +36,10 @@
     <!-- START - COMPANY OWED YOU -->
     <div class="container"
          style="margin: 2rem auto 0;max-width: 112.0rem;padding: 0 2.0rem;position: relative;width: 100%;" v-else>
-      <p style="text-align: right;">{{ $t('date') }}: {{ petition_date }}</p>
+      <p style="text-align: right;">{{ $t('date') }}: {{ petitionDate }}</p>
       <p style="text-align: center;">{{ company_name }}</p>
       <p>&nbsp;</p>
-      <p v-html="$t('petition_type_2_print_first', { 'start_date': start_date, 'end_date': end_date })"></p>
+      <p v-html="$t('petition_type_2_print_first', { 'start_date': startDate, 'end_date': endDate })"></p>
       <p v-html="$t('petition_type_2_print_second')"></p>
       <p v-html="$t('petition_type_2_print_third', { 'full_name': full_name })"></p>
     </div>
@@ -55,6 +55,22 @@ export default {
     return {
       isPrintable: this.printable,
       locale: this.$i18n.locale
+    }
+  },
+  methods: {
+    getFormatedDate ($date) {
+      return (typeof $date === 'object') ? this.$moment(String($date)).format('DD/MM/YYYY') : (typeof $date === 'string') ? $date : ''
+    }
+  },
+  computed: {
+    startDate () {
+      return this.getFormatedDate(this.start_date)
+    },
+    endDate () {
+      return this.getFormatedDate(this.end_date)
+    },
+    petitionDate () {
+      return this.getFormatedDate(this.petition_date)
     }
   },
   created () {

@@ -1,5 +1,22 @@
 # istifaetorg
 
+A resign application, simple and useful. Firstly, the app want to some basic info from you and creates a petition file to print or download.
+
+[demo](http://istifaet.org)
+
+## Used Libraries and Features
+* mobile friendly
+* multilanguage
+* bootstrap @latest
+* vuejs-datepicker
+* vue-moment & moment
+* bootstrap-vue
+* vue-i18n
+* portal-vue
+* vue-scrollto
+* vue-html-to-paper
+* integration with Vuex
+
 ## Project setup
 ```
 npm install
@@ -13,26 +30,6 @@ npm run serve
 ### Compiles and minifies for production
 ```
 npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Run your end-to-end tests
-```
-npm run test:e2e
-```
-
-### Run your unit tests
-```
-npm run test:unit
 ```
 
 ### Customize configuration

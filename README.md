@@ -2,10 +2,11 @@
 
 A resign application, simple and useful. Firstly, the app want to some basic info from you and creates a petition file to print or download.
 
-[demo](https://istifaet.org)
+[demo](http://istifaet.org)
 
 ## Used Libraries and Features
 * mobile friendly
+* multilanguage
 * bootstrap @latest
 * vuejs-datepicker
 * vue-moment & moment

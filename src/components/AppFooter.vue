@@ -76,6 +76,7 @@
 </template>
 
 <script>
+
 import Cookie from './../components/modals/Cookie'
 import Privacy from './../components/modals/Privacy'
 import Suggestion from './../components/modals/Suggestion'

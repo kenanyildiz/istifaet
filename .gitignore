@@ -39,6 +39,8 @@ Thumbs.db
 
 # Remove all .idea folder
 .idea
+.idea/
+/.idea/
 
 # User-specific stuff:
 .idea/**/workspace.xml

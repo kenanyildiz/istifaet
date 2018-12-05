@@ -23,21 +23,19 @@
 <template>
   <div id="printPetition">
     <!-- START - STANDART PETITION -->
-    <div class="container" v-if="petition_type == 1"
-         style="margin: 2rem auto 0;max-width: 112.0rem;padding: 0 2.0rem;position: relative;width: 100%;">
-      <p style="text-align: right;">{{ $t('date') }}: {{ petitionDate }}</p>
-      <p style="text-align: center;">{{ company_name }}</p>
-      <p>&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<strong>&nbsp;</strong></p>
+    <div class="container" v-if="petition_type == 1">
+      <p class="text-right">{{ $t('date') }}: {{ petitionDate }}</p>
+      <p class="text-center">{{ company_name }}</p>
+      <p>&nbsp;</p>
       <p v-html="$t('petition_type_1_print_first', { 'start_date': startDate, 'end_date': endDate })"></p>
       <p v-html="$t('petition_type_1_print_second')"></p>
       <p v-html="$t('petition_type_1_print_third', { 'full_name': full_name })"></p>
     </div>
     <!-- END - STANDART PETITION -->
     <!-- START - COMPANY OWED YOU -->
-    <div class="container"
-         style="margin: 2rem auto 0;max-width: 112.0rem;padding: 0 2.0rem;position: relative;width: 100%;" v-else>
-      <p style="text-align: right;">{{ $t('date') }}: {{ petitionDate }}</p>
-      <p style="text-align: center;">{{ company_name }}</p>
+    <div class="container" v-else>
+      <p class="text-right">{{ $t('date') }}: {{ petitionDate }}</p>
+      <p class="text-center">{{ company_name }}</p>
       <p>&nbsp;</p>
       <p v-html="$t('petition_type_2_print_first', { 'start_date': startDate, 'end_date': endDate })"></p>
       <p v-html="$t('petition_type_2_print_second')"></p>
@@ -74,12 +72,14 @@ export default {
     }
   },
   created () {
-    // Pass the element id here
-    var vm = this
-    if (vm.isPrintable) {
+    if (this.isPrintable) {
       setTimeout(() => {
-        vm.$htmlToPaper('printPetition')
-      }, 1000)
+        let $style = '@page { size: auto; margin: 0mm } ' +
+          'body { background-color: #FFF; margin: 10mm } ' +
+          '.text-right { text-align: right } ' +
+          '.text-center { text-align: center }'
+        printJS({ printable: 'printPetition', type: 'html', style: $style })
+      }, 500)
     }
   }
 }

@@ -16,20 +16,10 @@ import BootstrapVue from 'bootstrap-vue'
 import VueScrollTo from 'vue-scrollto'
 import PortalVue from 'portal-vue'
 import i18n from './i18n'
-import VueHtmlToPaper from 'vue-html-to-paper'
+import printJS from 'print-js'
 
-Vue.use(VueHtmlToPaper, {
-  name: '_blank',
-  specs: [
-    'fullscreen=no',
-    'titlebar=no',
-    'scrollbars=no'
-  ],
-  styles: [
-    'https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css',
-    'https://unpkg.com/kidlat-css/css/kidlat.css'
-  ]
-})
+Vue.use(PortalVue)
+Vue.use(VueMoment)
 Vue.use(i18n)
 Vue.use(BootstrapVue)
 Vue.use(VueScrollTo, {
@@ -44,9 +34,6 @@ Vue.use(VueScrollTo, {
   x: false,
   y: true
 })
-Vue.use(PortalVue)
-
-Vue.use(VueMoment)
 
 Vue.config.productionTip = true
 

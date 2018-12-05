@@ -5,7 +5,7 @@ Vue.use(Vuex)
 
 export default new Vuex.Store({
   state: {
-    petitionType: 1,
+    petitionType: null,
     modalOpts: {
       headerBgVariant: 'light',
       headerTextVariant: 'dark',

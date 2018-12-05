@@ -113,6 +113,8 @@ import Datepicker from 'vuejs-datepicker'
 import { tr } from 'vuejs-datepicker/dist/locale'
 import Loader from '../components/Loader'
 import Petition from './../components/modals/Petition'
+import { scroller } from 'vue-scrollto/src/scrollTo'
+const scrollTo = scroller()
 
 export default {
   name: 'ResignationForm',
@@ -138,6 +140,11 @@ export default {
   },
   methods: {
     checkForm ($event) {
+      if (!this.petition_type) {
+        scrollTo('#petition-type-section')
+        return
+      }
+
       this.modalDisplayChanged($event, { name: 'petitionModalOpt', display: true })
     },
     modalDisplayChanged ($event, $modal) {

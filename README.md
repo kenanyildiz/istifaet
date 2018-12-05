@@ -14,7 +14,7 @@ A resign application, simple and useful. Firstly, the app want to some basic inf
 * vue-i18n
 * portal-vue
 * vue-scrollto
-* vue-html-to-paper
+* print-js
 * integration with Vuex
 
 ## Project setup

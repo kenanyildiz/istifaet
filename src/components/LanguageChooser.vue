@@ -2,7 +2,7 @@
   <div class="d-flex justify-content-end">
     <ul class="nav">
       <li class="nav-item" v-for="(lang, index) in languages" :key="index">
-        <a href="javascript::void" class="nav-link font-weight-normal text-white cp" @click="select($event, lang.code)">
+        <a href class="nav-link font-weight-normal text-white" @click.prevent="select($event, lang.code)">
           <img :src="require(`../assets/img/${lang.code}.png`)" :alt="lang.name">
         </a>
       </li>
@@ -32,7 +32,14 @@ export default {
     select (e, code) {
       this.$i18n.locale = code
       localStorage.setItem('locale', code)
+      this.setHtmlAttr()
+    },
+    setHtmlAttr () {
+      document.getElementsByTagName('html')[0].setAttribute('lang', this.$i18n.locale)
     }
+  },
+  created () {
+    this.setHtmlAttr()
   }
 }
 </script>

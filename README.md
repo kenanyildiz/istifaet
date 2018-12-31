@@ -1,36 +1,22 @@
-# istifaetorg
+# istifaet
 
-A resign application, simple and useful. Firstly, the app want to some basic info from you and creates a petition file to print or download.
+> My marvelous Nuxt.js project
 
-[demo](http://istifaet.org)
+## Build Setup
 
-## Used Libraries and Features
-* mobile friendly
-* multilanguage
-* bootstrap @latest
-* vuejs-datepicker
-* vue-moment & moment
-* bootstrap-vue
-* vue-i18n
-* portal-vue
-* vue-scrollto
-* print-js
-* integration with Vuexe
+``` bash
+# install dependencies
+$ npm install
 
-## Project setup
-```
-npm install
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).

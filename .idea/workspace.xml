@@ -2,115 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb9c154a-ba3e-46ea-8a9a-378cd27838a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.editorconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.development" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.production" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.test" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/babel.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jest.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/postcss.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-chrome-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-chrome-512x512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-192x192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-36x36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-48x48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/android-icon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-114x114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-57x57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-72x72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon-120x120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon-152x152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon-180x180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon-60x60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon-76x76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/favicon-96x96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/ms-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/ms-icon-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/ms-icon-310x310.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/ms-icon-70x70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/msapplication-icon-144x144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/mstile-150x150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/icons/safari-pinned-tab.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap.init.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap.init.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/bootstrap.init.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/covers/cover-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/covers/cover-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/en.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/loader.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/logo-black.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/logo-black@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/logo-social-media.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/logo-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/logo/logo-white@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/petition-type/petition-type-1-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/petition-type/petition-type-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/petition-type/petition-type-2-preview.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/petition-type/petition-type-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/img/tr.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/style.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/base/_fonts.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/base/_helpers.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/base/_mixins.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/base/_variables.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/components/_buttons.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/layout/_layout.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/main.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/main/main.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/styles/vendors/_bootstrap_datepicker.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppFooter.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/AppHeader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LanguageChooser.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Loader.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PetitionPrint.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PetitionType.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ResignationForm.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/Cookie.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/Info.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/Petition.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/Privacy.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/SuccessMessages.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/modals/Suggestion.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/i18n.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/en.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/locales/tr.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/registerServiceWorker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/custom-assertions/elementCount.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/e2e/specs/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/unit/.eslintrc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/vue.config.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/resign.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -122,7 +25,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="-229">
+                <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -138,8 +54,8 @@
       <find>suc</find>
       <find>model.</find>
       <find>console</find>
-      <find>idea</find>
       <find>&lt;br</find>
+      <find>idea</find>
     </findStrings>
     <dirStrings>
       <dir>B:\project\resign\src</dir>
@@ -188,10 +104,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-213" />
-    <option name="y" value="505" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="953" />
+    <option name="y" value="40" />
+    <option name="width" value="974" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,6 +115,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +127,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -281,6 +197,7 @@
       <workItem from="1544372261144" duration="654000" />
       <workItem from="1546001356354" duration="95000" />
       <workItem from="1546009157504" duration="727000" />
+      <workItem from="1546268312591" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="Multilanguage implementation completed. Petitions ready to print.">
       <created>1543690439555</created>
@@ -363,12 +280,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35589000" />
+    <option name="totallyTimeSpent" value="36153000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21428572" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -382,7 +300,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49626866" visible="true" weight="0.44333333" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49626866" visible="true" weight="0.44333333" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" weight="0.32777777" />
       <window_info anchor="bottom" id="File Transfer" order="12" sideWeight="0.49840087" visible="true" weight="0.32777777" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -418,13 +336,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env.production">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -434,257 +345,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/modals/petition_type_1.php" />
     <entry file="file://$PROJECT_DIR$/src/components/modals/petition_type_2.php" />
-    <entry file="file://$PROJECT_DIR$/node_modules/vuex/types/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="16" selection-start-column="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/options.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="153" column="17" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1377">
-          <caret line="81" column="10" lean-forward="true" selection-start-line="81" selection-start-column="10" selection-end-line="81" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/styles/main/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/build/vue-html-to-paper.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="41" column="20" lean-forward="true" selection-start-line="41" selection-start-column="20" selection-end-line="41" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/dist/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="54" column="24" selection-start-line="54" selection-start-column="24" selection-end-line="54" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vuex/types/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue/types/options.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.css" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/README.md" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/assets/styles/main/main.scss" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/build/vue-html-to-paper.js" />
+    <entry file="file://$PROJECT_DIR$/node_modules/vue-html-to-paper/dist/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/modals/ErrorMessages.vue" />
-    <entry file="file://$PROJECT_DIR$/src/router.js">
+    <entry file="file://$PROJECT_DIR$/src/router.js" />
+    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js" />
+    <entry file="file://$PROJECT_DIR$/src/i18n.js" />
+    <entry file="file://$PROJECT_DIR$/src/locales/en.json" />
+    <entry file="file://$PROJECT_DIR$/src/locales/tr.json" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/Cookie.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/Petition.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/Privacy.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/SuccessMessages.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/Loader.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/PetitionType.vue" />
+    <entry file="file://$PROJECT_DIR$/src/main.js" />
+    <entry file="file://$PROJECT_DIR$/src/store.js" />
+    <entry file="file://$PROJECT_DIR$/src/components/AppHeader.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/AppFooter.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/Info.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/modals/Suggestion.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/ResignationForm.vue" />
+    <entry file="file://$PROJECT_DIR$/public/manifest.json" />
+    <entry file="file://$PROJECT_DIR$/public/robots.txt" />
+    <entry file="file://$PROJECT_DIR$/jest.config.js" />
+    <entry file="file://$PROJECT_DIR$/public/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/App.vue" />
+    <entry file="file://$PROJECT_DIR$/src/views/Home.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/LanguageChooser.vue" />
+    <entry file="file://$PROJECT_DIR$/src/components/PetitionPrint.vue" />
+    <entry file="file://$PROJECT_DIR$/test.js" />
+    <entry file="file://$PROJECT_DIR$/vue.config.js" />
+    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/registerServiceWorker.js">
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/i18n.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locales/en.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/locales/tr.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/Cookie.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="75" column="25" selection-start-line="75" selection-start-column="25" selection-end-line="75" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/Petition.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/Privacy.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="42" column="25" lean-forward="true" selection-start-line="42" selection-start-column="7" selection-end-line="42" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/SuccessMessages.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-873">
-          <caret line="10" column="10" lean-forward="true" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Loader.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PetitionType.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="59" selection-start-line="59" selection-end-line="59" selection-end-column="52" />
-          <folding>
-            <element signature="e#2217#2269#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-714">
-          <caret line="50" column="21" lean-forward="true" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+        <state relative-caret-position="148">
+          <caret line="136" column="5" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store.js">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="239">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppHeader.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="30" column="137" selection-start-line="30" selection-start-column="116" selection-end-line="30" selection-end-column="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/AppFooter.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="79" column="7" lean-forward="true" selection-start-line="79" selection-start-column="7" selection-end-line="79" selection-end-column="7" />
-          <folding>
-            <element signature="e#2916#2966#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/Info.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="60" column="7" lean-forward="true" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/modals/Suggestion.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="77" lean-forward="true" selection-start-line="77" selection-end-line="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/ResignationForm.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-          <folding>
-            <element signature="e#5726#5767#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/robots.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/jest.config.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/index.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/views/Home.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="29" selection-end-column="1" />
-          <folding>
-            <element signature="e#258#305#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/LanguageChooser.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="4" column="61" selection-start-line="4" selection-start-column="61" selection-end-line="4" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/PetitionPrint.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="76" column="40" selection-start-line="76" selection-start-column="36" selection-end-line="76" selection-end-column="40" />
-          <folding>
-            <element signature="e#90#96#0" expanded="true" />
-            <element signature="e#141#147#0" expanded="true" />
-            <element signature="e#717#723#0" expanded="true" />
-            <element signature="e#2557#2563#1" expanded="true" />
-            <element signature="e#3069#3075#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.js" />
     <entry file="file://$PROJECT_DIR$/.env.development">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -692,35 +411,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.env.production">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="31" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="245">
-            <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <first_editor relative-caret-position="-229">
+            <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vue.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.eslintrc.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
